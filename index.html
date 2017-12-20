@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<title>gifteeスタンプ</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="title" id="title"></div>
+    <div class="row" id="store">
+      <div class="col col-store"><span id="store-value"></span></div>
+    </div>
+    <div class="row" id="balance">
+      <div class="col col-balance">コイン残高：<span id="balance-value"></span></div>
+    </div>
+    <div class="row row-v-bottom" id="amount">
+      <div class="col col-label">金額</div>
+      <div class="col col-val"><span class="amount-value" id="amount-value"></span></div>
+      <div class="col col-unit">円</div>
+    </div>
+    <div class="row" id="coin">
+      <div class="col col-label">決済コイン数量</div>
+      <div class="col col-val"><span class="coin-value" id="coin-value"></span></div>
+      <div class="col col-unit">コイン</div>
+    </div>
+    <div class="stampArea">
+      <div class="stamp" id="stamp">
+        <p class="stamp-note" id="stamp-note">画面にgifteeスタンプを<br>押してください</p>
+        <div class="stamp-img" id="stamp-img"><img src="img_stamp@3x.png" width="252" height="252"></div>
+        <p class="stamp-date" id="stamp-date"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
